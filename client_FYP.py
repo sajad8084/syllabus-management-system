@@ -122,13 +122,13 @@ class admin:
         self.login_usernameentery = Entry(self.login_frame, width=15, font=font_family)
         self.login_usernameentery.place(anchor=E, relheight=0.10, relwidth=0.50, relx=0.8, rely=0.2)
         self.login_usernameentery.focus()
-        self.login_usernameentery.insert(0, "rkhan")
+        
 
         # self.login_usernameentery.insert(0, 'gmail')
         self.login_passwordentery = Entry(self.login_frame, font=font_family)
         self.login_passwordentery.place(anchor=E, relheight=0.10, relwidth=0.50, relx=0.8, rely=0.4)
         self.login_passwordentery.config(show="*")
-        self.login_passwordentery.insert(0, "112233")
+       
 
         # self.login_passwordentery.insert(0, '12')
 
